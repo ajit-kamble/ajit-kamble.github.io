@@ -10,6 +10,7 @@ function Layout() {
       sx={{
         height: "calc(100vh - 10px)",
         marginX: { lg: "96px", xs: "8px", md: "36px", sm: "8px" },
+        marginBottom: { xs: "24px", sm: "24px" },
         overflowY: "auto !important",
       }}
       className="scroll-custom"
