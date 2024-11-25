@@ -21,7 +21,7 @@ function Education() {
           borderRadius: "4px",
         }}
       />
-      <List dense>
+      <List sx={{ paddingY: "0px" }} dense>
         <ListItem>
           <ListItemText
             primary={
@@ -50,7 +50,7 @@ function Education() {
                   August 2008 - May 2013
                 </Typography>
                 <Typography sx={{ textDecoration: "underline" }}>
-                  Solapur University, Solapur
+                  Solapur University, Solapur, India
                 </Typography>
               </>
             }

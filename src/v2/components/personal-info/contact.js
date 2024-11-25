@@ -24,7 +24,7 @@ function Contact() {
           borderRadius: "4px",
         }}
       />
-      <List dense>
+      <List sx={{ paddingY: "0px" }} dense>
         <ListItem>
           <ListItemAvatar>
             <HomeIcon />
@@ -38,7 +38,10 @@ function Contact() {
           <ListItemText
             sx={{ textDecoration: "underline" }}
             primary={
-              <Link sx={{color:"white"}} href="mailto:ajit17021991@gmail.com">
+              <Link
+                sx={{ color: "white" }}
+                href="mailto:ajit17021991@gmail.com"
+              >
                 ajit17021991@gmail.com
               </Link>
             }
@@ -61,7 +64,7 @@ function Contact() {
             sx={{ textDecoration: "underline" }}
             primary={
               <Link
-              sx={{color:"white"}}
+                sx={{ color: "white" }}
                 href="https://www.linkedin.com/in/ajit-kamble17"
                 target="_blank"
               >

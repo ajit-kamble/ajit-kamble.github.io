@@ -90,28 +90,16 @@ function WorkExperience() {
               <Grid m={0} p={0} container spacing={0}>
                 <Grid m={0} p={0} size={6}>
                   <Typography fontSize="16" fontWeight="bold">
-                    Mastery Systems
+                    ERMCO
                   </Typography>
                 </Grid>
                 <Grid textAlign="right" m={0} p={0} size={6}>
-                  <Typography>May 2023 - Present</Typography>
+                  <Typography>March 2023 - May 2023</Typography>
                 </Grid>
                 <Grid m={0} p={0} size={12}>
                   <Typography>
                     <CustomChip
-                      label={"System Developer"}
-                      m="4"
-                      variant={"outlined"}
-                      size="small"
-                    />
-                    <CustomChip
-                      label={"Senior System Developer"}
-                      m="4"
-                      variant={"outlined"}
-                      size="small"
-                    />
-                    <CustomChip
-                      label={"Associate Technical Manager"}
+                      label={"Technical Lead"}
                       m="4"
                       variant={"outlined"}
                       size="small"
@@ -120,18 +108,16 @@ function WorkExperience() {
                   <Typography>
                     <ul style={{ paddingLeft: "24px", paddingTop: "8px" }}>
                       <li>
-                        Coyote is a leading global 3PL that combines a
-                        centralized marketplace with freight and supply chain
-                        solutions in USA
+                        EMRCO is a leading US manufacturer of oil-filled
+                        distribution transformers,
                       </li>
                       <li>
-                        We built Web Application, Desktop Application, SQL Jobs,
-                        Microservices, Standalone Windows Services to manage
-                        freights
+                        We built mobile application for Honeywell CK65 Handheld
+                        Computer for inventroy management.
                       </li>
                       <li>
-                        These application are used by Customer Reps, Carrier
-                        Reps & Internal Employees to carry out frieght lifecycle
+                        This mobile application is used by ERMCO employees to
+                        scan 3D QR-Code to add new entry of production items
                       </li>
                     </ul>
                   </Typography>
@@ -150,7 +136,7 @@ function WorkExperience() {
               <Grid m={0} p={0} container spacing={0}>
                 <Grid m={0} p={0} size={6}>
                   <Typography fontSize="16" fontWeight="bold">
-                  Coyote Logistics, LLC
+                    Coyote Logistics, LLC
                   </Typography>
                 </Grid>
                 <Grid textAlign="right" m={0} p={0} size={6}>
@@ -159,19 +145,25 @@ function WorkExperience() {
                 <Grid m={0} p={0} size={12}>
                   <Typography>
                     <CustomChip
+                      label={"Jr. Software Engineer"}
+                      m="4"
+                      variant={"outlined"}
+                      size="small"
+                    />
+                    <CustomChip
                       label={"Software Engineer"}
                       m="4"
                       variant={"outlined"}
                       size="small"
                     />
                     <CustomChip
-                      label={"Senior System Developer"}
+                      label={"Senior Software Engineer"}
                       m="4"
                       variant={"outlined"}
                       size="small"
                     />
                     <CustomChip
-                      label={"Associate Technical Manager"}
+                      label={"Technical Lead"}
                       m="4"
                       variant={"outlined"}
                       size="small"
