@@ -1,4 +1,4 @@
-import { Box, Divider, List, Typography } from "@mui/material";
+import { Box, Divider, Typography } from "@mui/material";
 import {
   CodeIcon,
   CssIcon,
@@ -10,7 +10,6 @@ import {
   PhoneAndroidIcon,
   StorageIcon,
 } from "../../../common";
-import { PhoneAndroid } from "@mui/icons-material";
 
 function TechSkills() {
   return (

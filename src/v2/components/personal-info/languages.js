@@ -1,4 +1,4 @@
-import { Box, Divider, List, Typography } from "@mui/material";
+import { Box, Divider, Typography } from "@mui/material";
 
 function Languages() {
   return (

@@ -1,4 +1,4 @@
-import { Box, Divider, Link, Typography } from "@mui/material";
+import { Box, Divider, Typography } from "@mui/material";
 
 function Profile() {
   return (
