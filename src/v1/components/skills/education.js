@@ -62,11 +62,7 @@ function Education() {
             position: "relative",
           }}
         >
-          <div
-            class="ribbon ribbon-bottom"
-          >
-            Grade A
-          </div>
+          <div className="ribbon ribbon-bottom">Grade A</div>
           <Grid size={{ xs: 12, md: 6, sm: 6 }}>
             <Grid container spacing={1} alignItems="center">
               <Grid textAlign="right">
@@ -126,11 +122,7 @@ function Education() {
             position: "relative",
           }}
         >
-          <div
-            class="ribbon ribbon-bottom"
-          >
-            First Class
-          </div>
+          <div className="ribbon ribbon-bottom">First Class</div>
           <Grid size={{ xs: 12, md: 6, sm: 6 }}>
             <Grid container spacing={1} alignItems="center">
               <Grid textAlign="right">

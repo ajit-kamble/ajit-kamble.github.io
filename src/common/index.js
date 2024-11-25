@@ -29,6 +29,7 @@ import {
   KeyboardDoubleArrowDown as KeyboardDoubleArrowDownIcon,
   Group as GroupIcon,
   KeyboardDoubleArrowUp as KeyboardDoubleArrowUpIcon,
+  Download as DownloadIcon
 } from "@mui/icons-material";
 import CustomChip from "./custome-chip";
 import MouseHoverPopover from "./mouse-hover-popup";
@@ -65,5 +66,6 @@ export {
   CircleIcon,
   KeyboardDoubleArrowDownIcon,
   GroupIcon,
-  KeyboardDoubleArrowUpIcon
+  KeyboardDoubleArrowUpIcon,
+  DownloadIcon
 };

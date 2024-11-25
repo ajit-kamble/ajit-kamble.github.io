@@ -21,7 +21,7 @@ function WorkExperience() {
       <Box sx={{ marginY: "8px" }}>
         <ul className="project-list">
           <li>
-            <div class="bullet">
+            <div className="bullet">
               <svg aria-hidden="true" viewBox="0 0 32 32" focusable="false">
                 <circle stroke="none" cx="16" cy="16" r="10"></circle>
               </svg>
@@ -81,7 +81,7 @@ function WorkExperience() {
           </li>
 
           <li>
-            <div class="bullet">
+            <div className="bullet">
               <svg aria-hidden="true" viewBox="0 0 32 32" focusable="false">
                 <circle stroke="none" cx="16" cy="16" r="10"></circle>
               </svg>
@@ -127,7 +127,7 @@ function WorkExperience() {
           </li>
 
           <li>
-            <div class="bullet">
+            <div className="bullet">
               <svg aria-hidden="true" viewBox="0 0 32 32" focusable="false">
                 <circle stroke="none" cx="16" cy="16" r="10"></circle>
               </svg>
