@@ -7,7 +7,7 @@ function Profile() {
         sx={{ fontWeight: "bold", fontSize: "18px" }}
         variant="button"
       >
-        Contact
+        Profile
       </Typography>
       <Divider
         sx={{

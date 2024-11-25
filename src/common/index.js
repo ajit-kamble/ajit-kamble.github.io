@@ -27,7 +27,8 @@ import {
   Flare as FlareIcon,
   CircleOutlined as CircleIcon,
   KeyboardDoubleArrowDown as KeyboardDoubleArrowDownIcon,
-  Group as GroupIcon
+  Group as GroupIcon,
+  KeyboardDoubleArrowUp as KeyboardDoubleArrowUpIcon,
 } from "@mui/icons-material";
 import CustomChip from "./custome-chip";
 import MouseHoverPopover from "./mouse-hover-popup";
@@ -63,5 +64,6 @@ export {
   FlareIcon,
   CircleIcon,
   KeyboardDoubleArrowDownIcon,
-  GroupIcon
+  GroupIcon,
+  KeyboardDoubleArrowUpIcon
 };

@@ -1,9 +1,10 @@
 import { Box, Divider, Link, Typography } from "@mui/material";
 import { CustomChip } from "../../../common";
+import { isMobile } from "react-device-detect";
 
 function Title() {
   return (
-    <Box sx={{ marginX: "32px" }}>
+    <Box sx={{ marginX: "32px", marginY: "16px" }}>
       <Typography
         sx={{
           textTransform: "uppercase",
@@ -29,7 +30,7 @@ function Title() {
               Bridgenext
             </Link>
           }
-          m={0}
+          m={2}
         />
       </Typography>
       <Divider
@@ -38,7 +39,7 @@ function Title() {
           height: "6px",
           border: "1px solid white",
           borderRadius: "4px",
-          width: "50%",
+          width: isMobile ? "90%" : "50%",
         }}
       />
       <Typography variant="button"></Typography>

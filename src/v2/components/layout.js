@@ -17,7 +17,9 @@ function Layout() {
     >
       <Grid container spacing={0}>
         <Grid
-          sx={{ background: personInfoBgColor, minHeight: "100vh" }}
+          sx={{
+            background: personInfoBgColor,
+          }}
           size={{ xs: 12, sm: 12, md: 4, lg: 3 }}
         >
           <PersonalInfo />
