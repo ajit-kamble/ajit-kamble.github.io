@@ -64,7 +64,7 @@ function Contact() {
             sx={{ textDecoration: "underline" }}
             primary={
               <Link
-                sx={{ color: "white" }}
+                sx={{ color: "white", maxWidth:"", textOverflow:"ellipsis" }}
                 href="https://www.linkedin.com/in/ajit-kamble17"
                 target="_blank"
               >

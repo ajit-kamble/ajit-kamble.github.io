@@ -18,11 +18,11 @@ function Layout() {
       <Grid container spacing={0}>
         <Grid
           sx={{ background: personInfoBgColor, minHeight: "100vh" }}
-          size={{ xs: 12, sm: 3, md: 3, lg: 3 }}
+          size={{ xs: 12, sm: 12, md: 4, lg: 3 }}
         >
           <PersonalInfo />
         </Grid>
-        <Grid sx={{ background: "" }} size={{ xs: 12, sm: 3, md: 3, lg: 9 }}>
+        <Grid size={{ xs: 12, sm: 12, md: 8, lg: 9 }}>
           <WorkDetails />
         </Grid>
       </Grid>
