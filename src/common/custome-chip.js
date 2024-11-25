@@ -13,7 +13,7 @@ function CustomChip({
   const [animateClass, setAnimateClass] = useState("");
   const handleEnter = () => {
     setTimeout(() => {
-      setAnimateClass("animate__animated animate__flipInY");
+      setAnimateClass("animate__animated animate__flip");
     }, 100);
   };
   const handleClose = () => {
@@ -35,6 +35,7 @@ function CustomChip({
           marginBottom: `${m}px`,
           fontWeight: fontWeight,
           border: "2px solid var(--color8)",
+          color: color,
         }}
         label={label}
         icon={icon}

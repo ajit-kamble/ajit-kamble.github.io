@@ -16,12 +16,11 @@ import {
   MicrosoftIcon,
   MilitaryTechIcon,
   StorageIcon,
-} from "../common";
+} from "../../../common";
 import { PhoneAndroid } from "@mui/icons-material";
 import { useState } from "react";
 
 function TechSkills() {
-  
   const [animateClass, setAnimateClass] = useState("");
   const handleEnter = () => {
     setTimeout(() => {
@@ -33,7 +32,7 @@ function TechSkills() {
       setAnimateClass("");
     }, 1000);
   };
-  
+
   return (
     <Card id="tech-skills" elevation={0}>
       <CardHeader

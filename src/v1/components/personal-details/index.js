@@ -25,7 +25,7 @@ import {
   CustomChip,
   LinkedInIcon,
   GroupIcon,
-} from "../common";
+} from "../../../common";
 
 /**
  * HEX: #f0efef

@@ -5,7 +5,7 @@ import {
   CardHeader,
   Typography,
 } from "@mui/material";
-import { AccountCircleIcon } from "../common";
+import { AccountCircleIcon } from "../../../common";
 import { useState } from "react";
 
 function Introduction() {

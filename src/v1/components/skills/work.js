@@ -7,7 +7,7 @@ import {
   Box,
   Tab,
 } from "@mui/material";
-import { EngineeringIcon } from "../common";
+import { EngineeringIcon } from "../../../common";
 import WorkDetails from "./work-details";
 import workData from "./work-details/data";
 import { useState } from "react";

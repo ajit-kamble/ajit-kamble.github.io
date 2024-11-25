@@ -1,25 +1,28 @@
 body {
   overflow: hidden;
   --color1: #b0efe9;
-  --color2: #5b0a6b;
+  --color2: #440e4e;
   --color3: #4b6b0a;
   --color4: #bfe0f4;
   --color5: #0a6b5b;
   --color6: #1b2c80;
   --color7: #99cdee;
   --color8: #db75e64f;
-  --color9:#ccddcd;
+  --color9: #ccddcd;
   --header-color: var(--color4);
   --chip-color: var(--color7);
   --ribbon-color: #000;
   --ribbon-bg-color: #5b0a6b;
+  /*colors for template 2*/
+  --t2-color1: #163853;
+  font-family: "fontFamily";
 }
 
 .ribbon {
   font-size: 12px;
   font-weight: bold;
   font-family: "Roboto";
-  color:#FFF !important;
+  color: #fff !important;
 }
 .ribbon {
   --f: 0.5em;
@@ -41,8 +44,8 @@ body {
     var(--r) calc(100% - var(--f)),
     0 calc(50% - var(--f) / 2)
   );
-  
-  color:#FFF !important;
+
+  color: #fff !important;
 }
 
 .ribbon-bottom {
@@ -70,23 +73,64 @@ body {
   outline: 1px solid slategrey;
 }
 
-.hook--hover-font:hover{
-  font-size: 16px!important;
+.hook--hover-font:hover {
+  font-size: 16px !important;
 }
 
 .hook--hover-font {
- 
   --c: no-repeat linear-gradient(var(--color2) 0 0);
-  background: 
-    var(--c) calc(-100% + var(--p, 0%)) 100% / 50% var(--p, .08em),
-    var(--c) calc( 200% - var(--p, 0%)) 0    / 50% var(--p, .08em);
-  transition: .3s var(--t, 0s), background-position .3s calc(.3s - var(--t, 0s));
-  --ribbon-color: #FFF
+  background: var(--c) calc(-100% + var(--p, 0%)) 100% / 50% var(--p, 0.08em),
+    var(--c) calc(200% - var(--p, 0%)) 0 / 50% var(--p, 0.08em);
+  transition: 0.3s var(--t, 0s),
+    background-position 0.3s calc(0.3s - var(--t, 0s));
+  --ribbon-color: #fff;
 }
 .hook--hover-font:hover {
   --p: 100%;
   --t: 0.3s;
-  color: #FFF;
+  color: #fff;
   --ribbon-bg-color: rgb(250, 250, 139);
   --ribbon-color: #000;
+}
+
+.project-list {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.project-list > li {
+  position: relative;
+  margin: 0;
+  padding-bottom: 1em;
+  padding-left: 20px;
+}
+
+.project-list > li::before {
+  background-color: #000;
+  width: 2px;
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 5px;
+}
+
+.project-list > li:first-child:before {
+  top: 10px;
+}
+.project-list > li:last-child:before {
+  height: 6px;
+}
+
+.bullet {
+  margin-left: -20px;
+  width: 12px;
+  fill: #000;
+  float: left;
+  padding-right: 10px;
+}
+.bullet.big {
+  width: 16px;
+  margin-left: -22px;
+  padding-right: 8px;
 }

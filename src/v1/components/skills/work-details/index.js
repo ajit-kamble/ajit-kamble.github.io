@@ -19,7 +19,7 @@ import {
   CustomChip,
   KeyboardDoubleArrowDownIcon,
   MouseHoverPopover,
-} from "../../common";
+} from "../../../../common";
 
 function RolesTable({ roles }) {
   return (

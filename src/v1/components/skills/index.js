@@ -4,7 +4,7 @@ import KeySkills from "./key-skills";
 import TechSkills from "./tech-skills";
 import Work from "./work";
 import Education from "./education";
-import { CircleIcon, FlareIcon } from "../common";
+import { CircleIcon, FlareIcon } from "../../../common";
 
 function Skills() {
   return (

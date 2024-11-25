@@ -12,7 +12,7 @@ import {
   EngineeringIcon,
   MilitaryTechIcon,
   SchoolIcon,
-} from "../common";
+} from "../../../common";
 import { useState } from "react";
 
 function Layout() {

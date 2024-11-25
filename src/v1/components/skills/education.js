@@ -6,7 +6,7 @@ import {
   Typography,
   Grid2 as Grid,
 } from "@mui/material";
-import { CalendarMonthIcon, SchoolIcon, VerifiedIcon } from "../common";
+import { CalendarMonthIcon, SchoolIcon, VerifiedIcon } from "../../../common";
 import { useState } from "react";
 
 function Education() {

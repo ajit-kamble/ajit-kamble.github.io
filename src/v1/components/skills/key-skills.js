@@ -6,7 +6,7 @@ import {
   CardHeader,
   Typography,
 } from "@mui/material";
-import { CustomChip, EmojiEventsIcon } from "../common";
+import { CustomChip, EmojiEventsIcon } from "../../../common";
 import { useState } from "react";
 
 function KeySkills() {
