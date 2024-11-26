@@ -6,14 +6,17 @@ import { DownloadIcon } from "../../common";
 function Layout() {
   const personInfoBgColor = "var(--t2-color1);";
 
+
   return (
     <Paper
-      sx={{
-        height: "calc(100vh - 10px)",
-        marginX: { lg: "96px", xs: "8px", md: "36px", sm: "8px" },
-        marginBottom: "32px",
-        overflowY: "auto !important",
-        position: "relative",
+      sx={(theme) => {
+        console.log(theme);
+        return {
+          height: "calc(100vh - 10px)",
+          marginX: { lg: "96px", xs: "2px", md: "36px", sm: "2px" },
+          overflowY: "auto !important",
+          position: "relative",
+        };
       }}
       className="scroll-custom"
       id="main-container"
@@ -32,7 +35,18 @@ function Layout() {
         </Grid>
       </Grid>
       <form method="get" action="./docs/ajit-kamble-cv.pdf">
-        <Fab sx={{position:"absolute", top: 0, right: 0, marginTop:"8px", marginRight:"8px"}} type="submit" color="success" size="small">
+        <Fab
+          sx={{
+            position: "absolute",
+            top: 0,
+            right: 0,
+            marginTop: "8px",
+            marginRight: "8px",
+          }}
+          type="submit"
+          color="success"
+          size="small"
+        >
           <DownloadIcon />
         </Fab>
       </form>

@@ -3,7 +3,7 @@ import { CustomChip } from "../../../common";
 
 function KeySkills() {
   return (
-    <Box sx={{ marginX: "32px", marginTop: "32px" }}>
+    <Box sx={{ marginX: "32px", marginTop: "16px" }}>
       <Typography
         sx={{ fontWeight: "bold", fontSize: "18px" }}
         variant="button"
