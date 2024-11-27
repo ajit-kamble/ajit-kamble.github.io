@@ -101,7 +101,7 @@ body {
 .project-list > li {
   position: relative;
   margin: 0;
-  padding-bottom: 1em;
+  padding-bottom: 16px;
   padding-left: 20px;
 }
 
@@ -113,6 +113,7 @@ body {
   top: 0px;
   bottom: 0px;
   left: 5px;
+  height: 100% !important;
 }
 
 .project-list > li:first-child:before {

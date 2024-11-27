@@ -60,18 +60,13 @@ function WorkExperience() {
                   <Typography>
                     <ul style={{ paddingLeft: "24px", paddingTop: "8px" }}>
                       <li>
-                        Coyote is a leading global 3PL that combines a
-                        centralized marketplace with freight and supply chain
-                        solutions in USA
+                        Mastery System offers a tool called MasterMind through
+                        which user(customers) can manage their frieghts
                       </li>
                       <li>
-                        We built Web Application, Desktop Application, SQL Jobs,
-                        Microservices, Standalone Windows Services to manage
-                        freights
-                      </li>
-                      <li>
-                        These application are used by Customer Reps, Carrier
-                        Reps & Internal Employees to carry out frieght lifecycle
+                        The Mastery Mind is as multi-tenant web portal throught
+                        which customer/carrier/employees can manage there
+                        frieghts
                       </li>
                     </ul>
                   </Typography>
@@ -174,16 +169,16 @@ function WorkExperience() {
                       <li>
                         Coyote is a leading global 3PL that combines a
                         centralized marketplace with freight and supply chain
-                        solutions in USA
+                        solutions in the USA
                       </li>
                       <li>
-                        We built Web Application, Desktop Application, SQL Jobs,
-                        Microservices, Standalone Windows Services to manage
-                        freights
+                        A range of Web Applications, Desktop Applications, SQL
+                        Jobs, Microservices, and Standalone Windows Services
+                        were developed to manage freight
                       </li>
                       <li>
-                        These application are used by Customer Reps, Carrier
-                        Reps & Internal Employees to carry out frieght lifecycle
+                        Customers, carriers, and internal employees use these
+                        applications in the freight lifecycle management process
                       </li>
                     </ul>
                   </Typography>
