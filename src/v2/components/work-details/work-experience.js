@@ -60,13 +60,19 @@ function WorkExperience() {
                   <Typography>
                     <ul style={{ paddingLeft: "24px", paddingTop: "8px" }}>
                       <li>
-                        Mastery System offers a tool called MasterMind through
-                        which user(customers) can manage their frieghts
+                        The Mastery System provides its customers with a tool
+                        called MasterMind through which they can manage their
+                        freight
                       </li>
                       <li>
-                        The Mastery Mind is as multi-tenant web portal throught
-                        which customer/carrier/employees can manage there
-                        frieghts
+                        Mastery Mind is a multi-tenant web portal that allows
+                        customers, carriers, and employees to manage their
+                        freight
+                      </li>
+                      <li>
+                        MasterMind offers real-time tracking of shipments,
+                        ensuring transparency and timely updates for all parties
+                        involved.
                       </li>
                     </ul>
                   </Typography>
