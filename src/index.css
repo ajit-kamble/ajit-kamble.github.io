@@ -124,11 +124,12 @@ body {
 }
 
 .bullet {
-  margin-left: -20px;
-  width: 12px;
+  margin-left: -21px;
+  width: 14px;
   fill: #000;
   float: left;
   padding-right: 10px;
+  transform: scale(1);
 }
 .bullet.big {
   width: 16px;

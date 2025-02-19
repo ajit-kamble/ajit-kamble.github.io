@@ -19,15 +19,15 @@ function Profile() {
       />
       <Box sx={{ marginY: "8px" }}>
         <Typography>
-          10+ years experienced Full stack .Net developer with hands on
-          experience of designing, developing, and maintaining web as well as
-          desktop applications. Possesses diverse experience of creating
-          multiple highly scalable applications using different tech stacks.
-          Adept at understanding the requirements of the clients and delivering
-          projects accordingly. Demonstrates the capability of maintaining code
-          by fixing bugs as well as conducting end to end testing. Highly
-          skilled at collaborating with team members to ship beautiful products
-          within deadlines.
+          10+ years of experience in Full-stack development using multiple tech
+          stacks with hands-on experience in designing, developing, and
+          maintaining web, mobile, and desktop applications. Possess diverse
+          experience in creating multiple highly scalable applications using
+          different tech stacks. Adept at understanding the requirements of
+          clients and delivering projects accordingly. Demonstrates the
+          capability of maintaining code by fixing defects & conducting
+          end-to-end testing. Highly skilled at collaborating with team members
+          to develop efficient products within deadlines
         </Typography>
       </Box>
     </Box>

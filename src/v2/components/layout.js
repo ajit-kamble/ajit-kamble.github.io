@@ -1,14 +1,50 @@
-import { Fab, Grid2 as Grid, Paper } from "@mui/material";
+import {
+  Grid2 as Grid,
+  IconButton,
+  Paper,
+  SpeedDial,
+  SpeedDialAction,
+  SpeedDialIcon,
+} from "@mui/material";
 import PersonalInfo from "./personal-info";
 import WorkDetails from "./work-details";
 import { DownloadIcon } from "../../common";
+import { useRef } from "react";
+import { pdfjs } from "react-pdf";
+import ConnectWithoutContactIcon from "@mui/icons-material/ConnectWithoutContact";
+import StarBorderPurple500Icon from "@mui/icons-material/StarBorderPurple500";
 
 function Layout() {
   const personInfoBgColor = "var(--t2-color1);";
+  const ref = useRef(null);
 
+  pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js`;
+
+  const actions = [
+    {
+      icon: (
+        <IconButton color="warning" type="submit">
+          <DownloadIcon />
+        </IconButton>
+      ),
+      name: "Download Resume",
+    },
+  ];
+
+  if (process.env.REACT_APP_HIDE_CONNECT_ME !== "true") {
+    actions.push({
+      icon: (
+        <IconButton color="warning">
+          <ConnectWithoutContactIcon />
+        </IconButton>
+      ),
+      name: "Contact Me",
+    });
+  }
 
   return (
     <Paper
+      ref={ref}
       sx={(theme) => {
         console.log(theme);
         return {
@@ -35,20 +71,28 @@ function Layout() {
         </Grid>
       </Grid>
       <form method="get" action="./docs/ajit-kamble-cv.pdf">
-        <Fab
+        <SpeedDial
+          ariaLabel="SpeedDial basic example"
+          icon={<SpeedDialIcon icon={<StarBorderPurple500Icon />} />}
+          direction="down"
           sx={{
+            transform: "translateZ(0px)",
+            flexGrow: 1,
             position: "absolute",
-            top: 0,
-            right: 0,
-            marginTop: "8px",
-            marginRight: "8px",
+            top: 8,
+            right: 8,
           }}
-          type="submit"
-          color="success"
-          size="small"
+          FabProps={{ size: "medium", color: "secondary" }}
         >
-          <DownloadIcon />
-        </Fab>
+          {actions.map((action) => (
+            <SpeedDialAction
+              key={action.name}
+              icon={action.icon}
+              tooltipTitle={action.name}
+              hidden={action.hidden}
+            />
+          ))}
+        </SpeedDial>
       </form>
     </Paper>
   );
