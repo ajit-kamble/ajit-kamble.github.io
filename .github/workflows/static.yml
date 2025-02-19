@@ -43,6 +43,7 @@ jobs:
         env:
           REACT_APP_VERSION: ${{ vars.REACT_APP_VERSION }}
           REACT_APP_TEMPLATE: ${{ vars.REACT_APP_TEMPLATE }}
+          REACT_APP_HIDE_CONNECT_ME: ${{ vars.REACT_APP_HIDE_CONNECT_ME }}
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
